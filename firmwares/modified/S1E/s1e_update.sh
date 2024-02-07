@@ -64,7 +64,7 @@ model=""
 #
 # Version and md5sum
 #
-FIRMWARE_URL="https://raw.githubusercontent.com/niceboygithub/AqaraSmartSwitchS1E/master/firmwares"
+FIRMWARE_URL="https://ghproxy.org/https://raw.githubusercontent.com/niceboygithub/AqaraSmartSwitchS1E/master/firmwares"
 VERSION="2.2.0_0000"
 KERNEL_MD5SUM="81f359df9acfd4adcff9f62ab7056e22"
 ROOTFS_MD5SUM="fffc2458db657fb8f743671bcb23387e"
