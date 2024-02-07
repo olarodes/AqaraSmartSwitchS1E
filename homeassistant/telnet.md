@@ -8,6 +8,8 @@
 3. Interrupt uboot.
   - Use putty to open COM port. Baud Rate is 115200.
   - While boot up, keep pressed the key "enter". If not stop uboot, please try again.
+  - The S1E which was shipped out afere Jul 2023, the "enter" interrupt is not working.
+  - To interrupt uboot, you need use short CS pin and GND pin while uboot reading kernel. Notice: This method is dangerous and it may make S1E become bricked.
 
 4. If it stopped on uboot cli, enter the following command
 
